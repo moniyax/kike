@@ -4,7 +4,7 @@ function Header() {
             <div className="flex items-center">Left Menu</div>
             <div className="flex items-center flex-col">
                 <h1 className="text-2xl font-semibold flex">COACHING</h1>
-                <div className="text-sm text-gray-500">by Kimberley</div>
+                <div className="text-sm text-gray-9">by Kimberley</div>
             </div>
             <div className="flex items-center">Right Menu</div>
         </header>
@@ -12,7 +12,7 @@ function Header() {
 }
 
 function Main() {
-    return <main className="bg-gray-100 p-4 flex-1">Main Content</main>;
+    return <main className="bg-gray-4 p-4 flex-1">Main Content</main>;
 }
 
 function Footer() {

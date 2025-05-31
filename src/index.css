@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
+@theme {
+  --color-gray-1: #fefcfb;
+  --color-gray-2: #faf9f7;
+  --color-gray-3: #f2f0ed;
+  --color-gray-4: #ece8e4;
+  --color-gray-5: #e5e0dc;
+  --color-gray-6: #ded8d2;
+  --color-gray-7: #d3cdc7;
+  --color-gray-8: #c0bab4;
+  --color-gray-9: #918c86;
+  --color-gray-10: #86817c;
+  --color-gray-11: #67625d;
+  --color-gray-12: #231f1b;
+
+  --color-gray-a1: #c0400004;
+  --color-gray-a2: #60400008;
+  --color-gray-a3: #472b0012;
+  --color-gray-a4: #4c26001b;
+  --color-gray-a5: #421e0023;
+  --color-gray-a6: #4422002d;
+  --color-gray-a7: #371c0038;
+  --color-gray-a8: #2915014b;
+  --color-gray-a9: #180d0079;
+  --color-gray-a10: #140a0083;
+  --color-gray-a11: #100800a2;
+  --color-gray-a12: #090500e4;
+
+  --color-gray-contrast: #ffffff;
+  --color-gray-surface: #ffffffcc;
+  --color-gray-indicator: #918c86;
+  --color-gray-track: #918c86;
+}
+
 body {
   font-family: "Avenir Next", sans-serif;
+  background-color: var(--color-gray-2);
+  color: var(--color-gray-12);
 }
