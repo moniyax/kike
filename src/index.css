@@ -31,10 +31,40 @@
   --color-gray-surface: #ffffffcc;
   --color-gray-indicator: #918c86;
   --color-gray-track: #918c86;
+
+  --font-cursive: "PlaywriteHU", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  --font-sans: "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  --font-condensed: "SofiaSansExtraCondensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+  font-family: "PlaywriteHU";
+  font-style: normal; /* Or 'italic' if you have a separate italic variable font */
+  font-display: swap; /* Crucial for performance */
+  font-weight: 100 900; /* Range of weights supported by this font file */
+  /* Add other axes ranges if applicable, e.g., font-stretch for width */
+  /* font-stretch: 75% 125%; */
+  src: url("/fonts/PlaywriteHU-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SofiaSansExtraCondensed";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/SofiaSansExtraCondensed-VariableFont_wght.ttf")
+    format("truetype");
 }
 
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: var(--font-sans);
+  font-weight: 400;
   background-color: var(--color-gray-2);
   color: var(--color-gray-12);
 }
